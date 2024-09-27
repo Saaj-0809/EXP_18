@@ -1,4 +1,4 @@
-## EXPERIMENT 17
+## EXPERIMENT 18
 
 ## AIM:
 To Implement Stack Implementation Using Array.
@@ -108,7 +108,7 @@ int main()
 
 ## OUTPUT:
 
-<img width="563" alt="image" src="https://github.com/user-attachments/assets/5f74c398-ac64-4f28-b54d-01efe59ba0a3">
+<img width="552" alt="image" src="https://github.com/user-attachments/assets/9ff62b51-9ec7-44e1-afa0-b8105e29af0b">
 
 ## 2. ARRAY BASED STACK IMPLEMENTATION:
 
@@ -182,7 +182,7 @@ int main() {
 
 ## OUTPUT:
 
-![Screenshot 2024-09-25 014615](https://github.com/user-attachments/assets/ed6ab8f7-8d6f-429a-a032-cd0e245d24ff)
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/1b4d7514-a833-4b34-90fd-8dabae861e2c">
 
 ## 3. CLASS BASED STACK IMPLEMENTATION:
 
@@ -277,7 +277,7 @@ int main()
 
 ## OUTPUT:
 
-<img width="616" alt="image" src="https://github.com/user-attachments/assets/07a4c32c-5be7-4ed7-ab20-ef94c4d7f89b">
+<img width="574" alt="image" src="https://github.com/user-attachments/assets/351b90e2-6ccc-4fe2-bdbf-206a9c0dd01c">
 
 ## CONCLUSION:
 The implementation of a stack using an array demonstrates the basic functionality of a stack—LIFO (Last In, First Out). In this approach:
