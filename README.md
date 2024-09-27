@@ -1,4 +1,4 @@
-## EXPERIMENT 18
+## EXPERIMENT 17
 
 ## AIM:
 To Implement Stack Implementation Using Array.
@@ -108,7 +108,7 @@ int main()
 
 ## OUTPUT:
 
-<img width="427" alt="image" src="https://github.com/user-attachments/assets/2f277114-1dee-4f67-893c-76ece234af56">
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/5f74c398-ac64-4f28-b54d-01efe59ba0a3">
 
 ## 2. ARRAY BASED STACK IMPLEMENTATION:
 
@@ -182,7 +182,7 @@ int main() {
 
 ## OUTPUT:
 
-<img width="443" alt="image" src="https://github.com/user-attachments/assets/dbea4f86-3c3f-4997-8c7d-ded710852851">
+![Screenshot 2024-09-25 014615](https://github.com/user-attachments/assets/ed6ab8f7-8d6f-429a-a032-cd0e245d24ff)
 
 ## 3. CLASS BASED STACK IMPLEMENTATION:
 
@@ -277,11 +277,16 @@ int main()
 
 ## OUTPUT:
 
-<img width="449" alt="image" src="https://github.com/user-attachments/assets/5bba9bc5-684f-49d7-8f8e-2e3ae998d865">
+<img width="616" alt="image" src="https://github.com/user-attachments/assets/07a4c32c-5be7-4ed7-ab20-ef94c4d7f89b">
 
 ## CONCLUSION:
 The implementation of a stack using an array demonstrates the basic functionality of a stack—LIFO (Last In, First Out). In this approach:
 
+* Push Operation: Adds elements to the top of the stack, and checks for stack overflow when trying to exceed the maximum array size.
+* Pop Operation: Removes and returns the element from the top of the stack, checking for underflow if the stack is empty.
+* Display Operation: Prints all the current elements in the stack in reverse order (from top to bottom).
+
+This implementation is efficient for a fixed-size stack. However, it is constrained by the array's static size, meaning if the stack grows beyond the array's limit, overflow occurs. Dynamic alternatives like linked lists or dynamic resizing arrays can be used for flexibility in real-world applications.
 * Push Operation: Adds elements to the top of the stack, and checks for stack overflow when trying to exceed the maximum array size.
 * Pop Operation: Removes and returns the element from the top of the stack, checking for underflow if the stack is empty.
 * Display Operation: Prints all the current elements in the stack in reverse order (from top to bottom).
